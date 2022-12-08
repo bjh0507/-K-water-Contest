@@ -7,8 +7,18 @@
 - 시작일 : 2022년 11월 24일 ~
 
 ## 데이터 전처리
-![image](https://user-images.githubusercontent.com/90167432/205447868-9315ff2f-8b80-470b-943e-44b3f3390036.png)
+- train 데이터
 
+![image](https://user-images.githubusercontent.com/90167432/206382966-9cae60b4-b254-49b8-a783-4567480e1678.png)
+
+- test 데이터
+
+![image](https://user-images.githubusercontent.com/90167432/206383013-0a04af21-094c-4fab-9429-9705b6c9e868.png)
+
+- 정답 label 데이터
+
+![image](https://user-images.githubusercontent.com/90167432/206383102-8d1bfc3c-dae7-4060-ac04-52a0ace2cbd3.png)
+  - 이상치로 인해 모델 학습이 제대로 이뤄지지 않아 이상치에 해당하는 적산차 값을 삭제 대신 직전 값으로 대치 (시계열 데이터이기 때문에 마음대로 삭제하면 안된다고 판단)
 
 ## 모델
 1. LSTM
