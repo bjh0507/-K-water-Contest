@@ -15,7 +15,5 @@
 
 2. RNN
 
-3. ARIMA
 
-4. LinearRegression
 
