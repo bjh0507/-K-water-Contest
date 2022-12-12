@@ -28,4 +28,10 @@
 3. LightGBM : 이준형 
 
 
-
+## 최종 모델
+- LSTM
+  - input size : (50,9) 행렬
+    - 이전 50개 행을 토대로 학습을 진행, 예측 수행
+  - hidden layer 수 : 2개
+    - 활성화 함수 : relu 사용
+  - mae값 : 93
