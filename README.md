@@ -23,7 +23,7 @@
 ## 모델
 1. LSTM : 배지혜
 
-2. RNN, GRU : 강지아
+2. RNN : 강지아
 
 3. LightGBM : 이준형 
 
